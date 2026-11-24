@@ -55,33 +55,37 @@ style that fits your page. Use the files as they are:
 - Do not reduce their contrast.
 
 There are two badges, `powered-by` ("Powered by Lafke") and `scanned-by` ("Scanned by
-Lafke"). Each comes in seven styles, as SVG and PNG, in [`badges/`](badges/).
+Lafke"). Each comes in nine styles, as SVG and PNG, in [`badges/`](badges/).
 
-| Style         | File suffix     | Looks like                                    | Use on             |
-| ------------- | --------------- | --------------------------------------------- | ------------------ |
-| Default       | none            | Blue badge with white text.                   | Any background.    |
-| Dark          | `-dark`         | Dark navy badge with white text.              | Any background.    |
-| Outline       | `-outline`      | White badge with a blue border.               | Any background.    |
-| Inline        | `-inline`       | Text and logo, no background.                 | Light backgrounds. |
-| Inline, dark  | `-inline-dark`  | Light text and white logo, no background.     | Dark backgrounds.  |
-| Stacked       | `-stacked`      | Text above the logo, no background.           | Light backgrounds. |
-| Stacked, dark | `-stacked-dark` | Light text above a white logo, no background. | Dark backgrounds.  |
+| Style                | File suffix           | Looks like                                          | Use on             |
+| -------------------- | --------------------- | --------------------------------------------------- | ------------------ |
+| Default              | none                  | Blue badge with white text.                         | Any background.    |
+| Dark                 | `-dark`               | Dark navy badge with white text.                    | Any background.    |
+| Outline              | `-outline`            | White badge with a blue border.                     | Any background.    |
+| Inline               | `-inline`             | Text and logo, no background.                       | Light backgrounds. |
+| Inline, dark         | `-inline-dark`        | Light text and white logo, no background.           | Dark backgrounds.  |
+| Stacked              | `-stacked`            | Text above the logo, no background.                 | Light backgrounds. |
+| Stacked, dark        | `-stacked-dark`       | Light text above a white logo, no background.       | Dark backgrounds.  |
+| Stacked, tight       | `-stacked-tight`      | Stacked, with no space on the left and right.       | Light backgrounds. |
+| Stacked, tight, dark | `-stacked-tight-dark` | Stacked, dark, with no space on the left and right. | Dark backgrounds.  |
 
 For example, `badges/powered-by-outline.svg` or `badges/scanned-by-stacked-dark.png`.
 
 ### Examples
 
-| Style         | Powered by                                                                        | Scanned by                                                                        |
-| ------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| Default       | <img src="badges/powered-by.svg" alt="Powered by Lafke" width="160">              | <img src="badges/scanned-by.svg" alt="Scanned by Lafke" width="160">              |
-| Dark          | <img src="badges/powered-by-dark.svg" alt="Powered by Lafke" width="160">         | <img src="badges/scanned-by-dark.svg" alt="Scanned by Lafke" width="160">         |
-| Outline       | <img src="badges/powered-by-outline.svg" alt="Powered by Lafke" width="160">      | <img src="badges/scanned-by-outline.svg" alt="Scanned by Lafke" width="160">      |
-| Inline        | <img src="badges/powered-by-inline.svg" alt="Powered by Lafke" width="160">       | <img src="badges/scanned-by-inline.svg" alt="Scanned by Lafke" width="160">       |
-| Inline, dark  | <img src="badges/powered-by-inline-dark.svg" alt="Powered by Lafke" width="160">  | <img src="badges/scanned-by-inline-dark.svg" alt="Scanned by Lafke" width="160">  |
-| Stacked       | <img src="badges/powered-by-stacked.svg" alt="Powered by Lafke" width="160">      | <img src="badges/scanned-by-stacked.svg" alt="Scanned by Lafke" width="160">      |
-| Stacked, dark | <img src="badges/powered-by-stacked-dark.svg" alt="Powered by Lafke" width="160"> | <img src="badges/scanned-by-stacked-dark.svg" alt="Scanned by Lafke" width="160"> |
+| Style                | Powered by                                                                             | Scanned by                                                                             |
+| -------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| Default              | <img src="badges/powered-by.svg" alt="Powered by Lafke" width="160">                   | <img src="badges/scanned-by.svg" alt="Scanned by Lafke" width="160">                   |
+| Dark                 | <img src="badges/powered-by-dark.svg" alt="Powered by Lafke" width="160">              | <img src="badges/scanned-by-dark.svg" alt="Scanned by Lafke" width="160">              |
+| Outline              | <img src="badges/powered-by-outline.svg" alt="Powered by Lafke" width="160">           | <img src="badges/scanned-by-outline.svg" alt="Scanned by Lafke" width="160">           |
+| Inline               | <img src="badges/powered-by-inline.svg" alt="Powered by Lafke" width="160">            | <img src="badges/scanned-by-inline.svg" alt="Scanned by Lafke" width="160">            |
+| Inline, dark         | <img src="badges/powered-by-inline-dark.svg" alt="Powered by Lafke" width="160">       | <img src="badges/scanned-by-inline-dark.svg" alt="Scanned by Lafke" width="160">       |
+| Stacked              | <img src="badges/powered-by-stacked.svg" alt="Powered by Lafke" width="160">           | <img src="badges/scanned-by-stacked.svg" alt="Scanned by Lafke" width="160">           |
+| Stacked, dark        | <img src="badges/powered-by-stacked-dark.svg" alt="Powered by Lafke" width="160">      | <img src="badges/scanned-by-stacked-dark.svg" alt="Scanned by Lafke" width="160">      |
+| Stacked, tight       | <img src="badges/powered-by-stacked-tight.svg" alt="Powered by Lafke" width="68">      | <img src="badges/scanned-by-stacked-tight.svg" alt="Scanned by Lafke" width="68">      |
+| Stacked, tight, dark | <img src="badges/powered-by-stacked-tight-dark.svg" alt="Powered by Lafke" width="68"> | <img src="badges/scanned-by-stacked-tight-dark.svg" alt="Scanned by Lafke" width="68"> |
 
-The inline, dark and stacked, dark styles have white text and a white logo. They are meant
+The dark inline and stacked styles have white text and a white logo. They are meant
 for dark backgrounds, so they are hard to see on a white page.
 
 ### Markdown
