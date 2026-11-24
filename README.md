@@ -44,6 +44,50 @@ wordmark.
 - Do not recolor it. Use only the blue or white versions where you can.
 - Do not reduce its contrast.
 
+## Badges
+
+Add a badge to your README or website to show that your project uses Lafke. Pick the
+style that fits your page. Use the files as they are:
+
+- Do not rotate the badges.
+- Do not crop them.
+- Do not recolor them.
+- Do not reduce their contrast.
+
+There are two badges, `powered-by` ("Powered by Lafke") and `scanned-by` ("Scanned by
+Lafke"). Each comes in seven styles, as SVG and PNG, in [`badges/`](badges/).
+
+| Style         | File suffix     | Looks like                                    | Use on             |
+| ------------- | --------------- | --------------------------------------------- | ------------------ |
+| Default       | none            | Blue badge with white text.                   | Any background.    |
+| Dark          | `-dark`         | Dark navy badge with white text.              | Any background.    |
+| Outline       | `-outline`      | White badge with a blue border.               | Any background.    |
+| Inline        | `-inline`       | Text and logo, no background.                 | Light backgrounds. |
+| Inline, dark  | `-inline-dark`  | Light text and white logo, no background.     | Dark backgrounds.  |
+| Stacked       | `-stacked`      | Text above the logo, no background.           | Light backgrounds. |
+| Stacked, dark | `-stacked-dark` | Light text above a white logo, no background. | Dark backgrounds.  |
+
+For example, `badges/powered-by-outline.svg` or `badges/scanned-by-stacked-dark.png`.
+
+### Markdown
+
+```md
+[![Powered by Lafke](https://raw.githubusercontent.com/lafke/brand-kit/main/badges/powered-by.svg)](https://lafke.dev)
+```
+
+### Light and dark themes
+
+To switch between a light and a dark style with the reader's theme, use `<picture>`:
+
+```html
+<a href="https://lafke.dev">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lafke/brand-kit/main/badges/powered-by-inline-dark.svg">
+    <img alt="Powered by Lafke" src="https://raw.githubusercontent.com/lafke/brand-kit/main/badges/powered-by-inline.svg">
+  </picture>
+</a>
+```
+
 ## Naming and writing
 
 | Form    | Use                                                   |
