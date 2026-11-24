@@ -69,6 +69,21 @@ Lafke"). Each comes in seven styles, as SVG and PNG, in [`badges/`](badges/).
 
 For example, `badges/powered-by-outline.svg` or `badges/scanned-by-stacked-dark.png`.
 
+### Examples
+
+| Style         | Powered by                                                                        | Scanned by                                                                        |
+| ------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| Default       | <img src="badges/powered-by.svg" alt="Powered by Lafke" width="160">              | <img src="badges/scanned-by.svg" alt="Scanned by Lafke" width="160">              |
+| Dark          | <img src="badges/powered-by-dark.svg" alt="Powered by Lafke" width="160">         | <img src="badges/scanned-by-dark.svg" alt="Scanned by Lafke" width="160">         |
+| Outline       | <img src="badges/powered-by-outline.svg" alt="Powered by Lafke" width="160">      | <img src="badges/scanned-by-outline.svg" alt="Scanned by Lafke" width="160">      |
+| Inline        | <img src="badges/powered-by-inline.svg" alt="Powered by Lafke" width="160">       | <img src="badges/scanned-by-inline.svg" alt="Scanned by Lafke" width="160">       |
+| Inline, dark  | <img src="badges/powered-by-inline-dark.svg" alt="Powered by Lafke" width="160">  | <img src="badges/scanned-by-inline-dark.svg" alt="Scanned by Lafke" width="160">  |
+| Stacked       | <img src="badges/powered-by-stacked.svg" alt="Powered by Lafke" width="160">      | <img src="badges/scanned-by-stacked.svg" alt="Scanned by Lafke" width="160">      |
+| Stacked, dark | <img src="badges/powered-by-stacked-dark.svg" alt="Powered by Lafke" width="160"> | <img src="badges/scanned-by-stacked-dark.svg" alt="Scanned by Lafke" width="160"> |
+
+The inline, dark and stacked, dark styles have white text and a white logo. They are meant
+for dark backgrounds, so they are hard to see on a white page.
+
 ### Markdown
 
 ```md
